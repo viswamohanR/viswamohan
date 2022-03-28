@@ -1,0 +1,20 @@
+html{
+    background-image: url("https://cdn.wallpapersafari.com/49/90/piUcJ3.jpg");
+    }
+    
+    div {
+        margin: 10px;
+        padding: 20px;
+        border: blueviolet;
+        border-style: double;
+    }
+    
+    h1{
+        padding:20px;
+        color: darkblue;
+    }
+    
+    div h1{
+        color: black;
+    }
+    
