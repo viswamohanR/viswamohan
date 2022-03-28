@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 5</title>
+    <link rel="stylesheet" href="ex5css.css">
+</head>
+
+<body>
+    <h1>DOM Questions</h1>
+    <div>
+        <h1>1) Long Short Word Finder</h1>
+        <label for="long-short">Long Short finder: </label>
+        <input type="text" id="long-short" title="Long Short">
+        <button id="long-short-compute" title="long-short-compute">Find</button>
+        <p><span id="long-short-output"></span></p>
+    </div>
+
+    <div>
+        <h1 for="bmi">2) BMI calculator </h1>
+        <label for="height">Height: </label>
+        <input type="text" id="height" title="Height">
+        <br>
+        <label for="weight">Weight: </label>
+        <input type="text" id="weight" title="Weight">
+        <button id="bmi-compute" title="bmi-compute">Caclulate</button>
+
+        <p>BMI: <span id="bmi-output"></span></p>
+        <p>Body type: <span id="bmi-type-output"></span></p>
+    </div>
+
+    <div>
+        <h1>3) Fruit Farm</h1>
+        <label for="rows">Rows: </label>
+        <input type="text" id="rows" title="Rows">
+        <br>
+        <label for="columns">Columns: </label>
+        <input type="text" id="columns" title="Columns">
+        <button id="farm-compute" title="farm-compute">Plant Garden</button>
+
+        <table id="farm"></table>
+    </div>
+
+
+    <div>
+        <h1>Currency Converter</h1>
+        <fieldset>Convert
+            <input type="text" id="from-data" title="Data">
+            <select name="from-currency" id="from" title="From Currency">
+                <option value="INR">Indian Rupee</option>
+                <option value="usd">US Dollar</option>
+            </select>
+            <p>
+                To
+                <input type="text" id="to-data" title="Data">
+                <select name="to-currency" id="to" title="To Currency">
+                    <option value="INR">Indian Rupee</option>
+                    <option value="usd">US Dollar</option>
+                </select>
+            </p>
+        </fieldset>
+    </div>
+
+    <div>
+        <h1>5) Heads or Tails?</h1>
+        <img src="https://www.pngitem.com/pimgs/m/123-1232373_coin-png-pic-heads-and-tails-indian-coin.png" id="coin-img" alt="coin" width="100px" height="100px">
+        <br>
+        <button id="flip">Flip</button>
+        <p>Heads total: <span id="heads-total">0</span></p>
+        <p>Tails total: <span id="tails-total">0</span></p>
+    </div>
+
+    <div>
+        <h1>6) Bithday cake Order Form</h1>
+        <fieldset>
+            Nos of 1/2kg Cakes <input type="text" id="small" title="small" /><br />
+            Nos of 1kg Cakes <input type="text" id="medium" title="medium" /><br />
+            Nos of 2kg Cakes <input type="text" id="large" title="large" /><br />
+            Interested Tip:
+            <label><input type="radio" value="10" name="tip" />
+                10%</label>
+            <label><input type="radio" value="15" name="tip" checked="checked" /> 15%
+            </label> <label><input type="radio" value="20" name="tip" />
+                20%</label> <br />
+            <button id="submit">Calculate Order</button>
+        </fieldset>
+        <p>Cost of order: Rs.<span id="price"></span></p>
+    </div>
+
+    <script src="ex5js.js"></script>
+</body>
+
+</html>
